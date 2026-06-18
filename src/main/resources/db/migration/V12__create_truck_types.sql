@@ -1,0 +1,10 @@
+CREATE TABLE truck_types
+(
+    id BIGINT NOT NULL AUTO_INCREMENT,
+
+    truck_name VARCHAR(100) NOT NULL UNIQUE,
+
+    is_active BOOLEAN NOT NULL DEFAULT TRUE,
+
+    PRIMARY KEY (id)
+);
