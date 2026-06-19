@@ -218,6 +218,15 @@ Create a MySQL database:
 ```sql
 CREATE DATABASE conway_db;
 ```
+## Configuration
+
+Copy the example configuration:
+
+```bash
+cp src/main/resources/application-example.properties src/main/resources/application.properties
+```
+
+Update database credentials and JWT secret before running the application.
 
 Update application.properties with your database credentials.
 
